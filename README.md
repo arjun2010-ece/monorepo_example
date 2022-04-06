@@ -27,6 +27,6 @@
 3. In each projects folders package.json put a name as "@monorepo/reactapp" and "@monorepo/nexttapp".
     "@" symbol is important to be used with root projects name "monorepo" then with a slash the other projects name like reactapp and nextapp.
 
-4. Go to each project and with the command "ls -la" check whether they have .git and .gitignore file. 
+4.  Go to each project and with the command "ls -la" check whether they have .git and .gitignore file. 
     Fire the command "rm -rf .git" and "rm -rf .gitignore" and uninitialise a git repo from those project folders. and then in the root "monorepo" folder, do "git init" and add global gitignore files in the root folder.
     Then we can push this global folder in the github.
