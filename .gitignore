@@ -1,4 +1,2 @@
 node_modules/
-services/reactapp/node_modules/
-services/nextapp/node_modules/
-services/reactapp/package-lock.json
+servicess/.DS_Store
