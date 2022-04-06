@@ -1,2 +1,5 @@
 node_modules/
 **/.DS_Store
+yarn.lock/
+**/**/*.lock
+servicess/reactapp/package-lock.json
