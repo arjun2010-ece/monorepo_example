@@ -30,3 +30,5 @@
 4.  Go to each project and with the command "ls -la" check whether they have .git and .gitignore file. 
     Fire the command "rm -rf .git" and "rm -rf .gitignore" and uninitialise a git repo from those project folders. and then in the root "monorepo" folder, do "git init" and add global gitignore files in the root folder.
     Then we can push this global folder in the github.
+
+5. VERY VERY IMPORTANT:: always remember that you put node_modules in gitignore files for both the subprojects. If by mistake your nodemodules is committed then that subfolder will not be pushed in github.
