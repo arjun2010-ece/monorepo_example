@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "name": "monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces":["services/reactapp", "services/nextapp"],
+  "scripts": {
+    "start:react": "yarn workspace @monorepo/reactapp start",
+    "start:next": "yarn workspace @monorepo/nextapp dev"
+  }
+}
