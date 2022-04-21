@@ -32,3 +32,15 @@
     Then we can push this global folder in the github.
 
 5. VERY VERY IMPORTANT:: always remember that you put node_modules in gitignore files for both the subprojects. If by mistake your nodemodules is committed then that subfolder will not be pushed in github.
+
+
+INSTALL/UNINSTALL A PACKAGE IN ANY SUBPROJECT FROM ROOT:::
+========================================================
+To install a package in any subproject from the root you have to use npm and not yarn.
+
+Below command will do the tasks::
+
+npm i react-hooks-use-modal --workspace=services/web
+npm uninstall react-hooks-use-modal --workspace=services/web
+
+
