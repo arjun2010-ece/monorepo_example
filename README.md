@@ -41,6 +41,13 @@ To install a package in any subproject from the root you have to use npm and not
 Below command will do the tasks::
 
 npm i react-hooks-use-modal --workspace=services/web
+
 npm uninstall react-hooks-use-modal --workspace=services/web
+
+yarn workspace services/web add react react-dom --dev
+
+
+
+
 
 
